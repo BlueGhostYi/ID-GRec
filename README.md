@@ -26,7 +26,7 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | **Model Name** | **Paper**                                                                                              | **Publication** | **Type** |
 |----------------|--------------------------------------------------------------------------------------------------------|-----------------|----------|
 | BPRMF          | BPR: Bayesian personalized ranking from implicit feedback                                              | UAI'09          | base     |
-| GC-MC          | Graph convolutional matrix completion                                                                  | 17              | GNN      |
+| GC-MC          | Graph convolutional matrix completion                                                                  | KDD'17          | GNN      |
 | LR-GCCF        | Revisiting graph based collaborative filtering: A linear residual graph convolutional network approach | AAAI'20         | GNN      |
 | NGCF           | Neural graph collaborative filtering                                                                   | SIGIR'19        | GNN      |
 | LightGCN       | LightGCN: Simplifying and powering graph convolution network for recommendation                        | SIGIR'20        | GNN      |
