@@ -35,7 +35,18 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder            | TOIS'22         | GNN+VAE  |
 | SimGCL         | Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation                | SIGIR'22        | GNN+SSL  |
 | DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
-| NCL            | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
-| DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
+| NCL            |                                                                                                        | WWW'22          | GNN+SSL  |
+| HCCF           |                                                                                                        | SIGIR'22        | GNN+SSL  |
+| LightGCL       |                                                                                                        | ICLR'23         | GNN+SSL  |
+| VGCL           |                                                                                                        | SIGIR'23        | GNN+SSL  |
+| DCCF           |                                                                                                        | SIGIR'23        | GNN+SSL  |
+| CGCL           |                                                                                                        | SIGIR'23        | GNN+SSL  |
+| GraphAU        |                                                                                                        | CIKM'23         | GNN+SSL  |
+| AU+            |                                                                                                        | AAAI'24         | GNN+SSL  |
+| RecDCL         |                                                                                                        | WWW'24          | GNN+SSL  |
+| BIGCF          |                                                                                                        | SIGIR'24        | GNN+SSL  |
+| SCCF           |                                                                                                        | KDD'24          | GNN+SSL  |
+
+
 
 
