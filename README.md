@@ -37,6 +37,7 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
 | NCL            |                                                                                                        | WWW'22          | GNN+SSL  |
 | HCCF           |                                                                                                        | SIGIR'22        | GNN+SSL  |
+| XSimGCL        |                                                                                                        | TKDE'23         | GNN+SSL  |
 | LightGCL       |                                                                                                        | ICLR'23         | GNN+SSL  |
 | VGCL           |                                                                                                        | SIGIR'23        | GNN+SSL  |
 | DCCF           |                                                                                                        | SIGIR'23        | GNN+SSL  |
