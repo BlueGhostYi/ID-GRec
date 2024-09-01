@@ -21,7 +21,7 @@ Steps to run the code (MODEL_NAME is the name of the model):
 1. In the folder . /configure to configure the MODEL_NAME.txt file;
 2. Run main.py and select the MODEL_NAME.
 
-## Implemented Model List 
+## Implemented Model List
 
 | **Model Name** | **Paper**                                                                                              | **Publication** | **Type** |
 |----------------|--------------------------------------------------------------------------------------------------------|-----------------|----------|
@@ -34,5 +34,8 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | SGL            | Self-supervised graph learning for recommendation                                                      | SIGIR'21        | GNN+SSL  |
 | CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder            | TOIS'22         | GNN+VAE  |
 | SimGCL         | Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation                | SIGIR'22        | GNN+SSL  |
+| DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
+| NCL            | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
+| DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
 
 
