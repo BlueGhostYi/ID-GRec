@@ -5,7 +5,7 @@ ID-GRec is a **graph recommendation framework** based on Python and Pytorch, whi
 
 ID-GRec is dedicated to exploring the latest research results on graph-based recommender systems and comparing them in a unified framework. Therefore, we adopt LightGCN, a classic work on graph recommender systems, as a benchmark in ID-GRec and refer to a large number of related works and frameworks. Further, we roughly categorize the existing methods into *graph neural network-based methods (GNN)* and *graph self-supervised learning-based methods (SSL)*. And they are compared under a unified framework, which includes publications in various flagship conferences and journals in recent years. In addition, we also simply implement BPRMF as a most basic comparison baseline as well as an extensible template.
 
-# Environment (based on our test platform)
+## Environment (based on our test platform)
 ```
 python == 3.8.18
 pytorch == 2.1.0 (cuda:12.1)
