@@ -32,21 +32,20 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | LightGCN       | LightGCN: Simplifying and powering graph convolution network for recommendation                        | SIGIR'20        | GNN      |
 | IMP-GCN        | Interest-aware message-passing GCN for recommendation                                                  | WWW'21          | GNN      |
 | SGL            | Self-supervised graph learning for recommendation                                                      | SIGIR'21        | GNN+SSL  |
-| CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder            | TOIS'22         | GNN+VAE  |
+| CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder            | TOIS'22         | GNN+SSL  |
 | SimGCL         | Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation                | SIGIR'22        | GNN+SSL  |
 | DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
-| NCL            |                                                                                                        | WWW'22          | GNN+SSL  |
-| HCCF           |                                                                                                        | SIGIR'22        | GNN+SSL  |
-| XSimGCL        |                                                                                                        | TKDE'23         | GNN+SSL  |
-| LightGCL       |                                                                                                        | ICLR'23         | GNN+SSL  |
-| VGCL           |                                                                                                        | SIGIR'23        | GNN+SSL  |
-| DCCF           |                                                                                                        | SIGIR'23        | GNN+SSL  |
-| CGCL           |                                                                                                        | SIGIR'23        | GNN+SSL  |
-| GraphAU        |                                                                                                        | CIKM'23         | GNN+SSL  |
-| AU+            |                                                                                                        | AAAI'24         | GNN+SSL  |
-| RecDCL         |                                                                                                        | WWW'24          | GNN+SSL  |
-| BIGCF          |                                                                                                        | SIGIR'24        | GNN+SSL  |
-| SCCF           |                                                                                                        | KDD'24          | GNN+SSL  |
+| NCL            | Improving graph collaborative filtering with neighborhood-enriched contrastive learning                | WWW'22          | GNN+SSL  |
+| HCCF           | Hypergraph Contrastive Collaborative Filtering                                                         | SIGIR'22        | GNN+SSL  |
+| XSimGCL        | XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation                        | TKDE'23         | GNN+SSL  |
+| LightGCL       | LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation                           | ICLR'23         | GNN+SSL  |
+| VGCL           | Generative-Contrastive Graph Learning for Recommendation                                               | SIGIR'23        | GNN+SSL  |
+| DCCF           | Disentangled Contrastive Collaborative Filtering                                                       | SIGIR'23        | GNN+SSL  |
+| CGCL           | Candidate–aware Graph Contrastive Learning for Recommendation                                          | SIGIR'23        | GNN+SSL  |
+| GraphAU        | Graph-based Alignment and Uniformity for Recommendation                                                | CIKM'23         | GNN+SSL  |
+| RecDCL         | RecDCL: Dual Contrastive Learning for Recommendation                                                   | WWW'24          | GNN+SSL  |
+| BIGCF          | Exploring the Individuality and Collectivity of Intents behind Interactions for Graph Collaborative Filtering  | SIGIR'24        | GNN+SSL  |
+| SCCF           | Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering                         | KDD'24          | GNN+SSL  |
 
 ## Basic Comparisons
 Taking the Yelp2018 dataset provided in the LightGCN paper as an example, the following table presents the reproduced results from ID-GRec with the results reported in the original paper (all publications that used the Yelp2018 dataset):
