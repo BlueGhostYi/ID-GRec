@@ -48,6 +48,13 @@ Steps to run the code (MODEL_NAME is the name of the model):
 | BIGCF          |                                                                                                        | SIGIR'24        | GNN+SSL  |
 | SCCF           |                                                                                                        | KDD'24          | GNN+SSL  |
 
-
-
+## Basic Comparisons
+Taking the Yelp2018 dataset provided in the LightGCN paper as an example, the following table presents the reproduced results from ID-GRec with the results reported in the original paper (all publications that used the Yelp2018 dataset):
+| **Model Name** | **Recall@20 (paper)** | **Recall@20 (ID-GRec)** | **NDCG@20 (paper)** | **NDCG@20 (ID-GRec)** |
+|----------------|---------------|-------------|---------------|-------------|
+| BPRMF          |               |             |               |             |
+| LightGCN       |     0.0639    |             |    0.0525     |             |
+| SGL            |     0.0675    |   0.0675    |    0.0555     |    0.0555   |
+| CVGA           |     0.0694    |   0.0691    |    0.0571     |    0.0570   |
+| SimGCL         |     0.0721    |   0.0725    |    0.0601     |    0.0599   |
 
