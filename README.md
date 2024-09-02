@@ -18,7 +18,12 @@ tdqm == 4.65.0
 ## Examples to Run 
 Steps to run the code (MODEL_NAME is the name of the model):
 1. In the folder . /configure to configure the MODEL_NAME.txt file;
-2. Run main.py and select the MODEL_NAME.
+2. Run main.py `python main.py` and select the identifier of MODEL_NAME or specify through the command line:`python main.py --model=MODEL_NAME`
+
+Example:
+If you want to run LightGCN:
+1. In the folder . /configure to configure the LightGCN.txt file;
+2. Run main.py `python main.py` and select the identifier of LightGCN or specify through the command line:`python main.py --model=LightGCN`
 
 ## Implemented Model List
 
