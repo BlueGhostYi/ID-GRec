@@ -50,7 +50,7 @@ If you want to run LightGCN:
 | RecDCL         | RecDCL: Dual Contrastive Learning for Recommendation                                                   | WWW'24          | GNN+SSL  |
 | BIGCF          | Exploring the Individuality and Collectivity of Intents behind Interactions for Graph Collaborative Filtering  | SIGIR'24        | GNN+SSL  |
 | SCCF           | Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering                         | KDD'24          | GNN+SSL  |
-
+| EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems            | TOIS'24         | GNN+SSL  |
 ## Basic Comparisons
 Taking the Yelp2018 dataset provided in the LightGCN paper as an example, the following table presents the reproduced results from ID-GRec with the results reported in the original paper (all publications that used the Yelp2018 dataset):
 | **Model Name** | **Recall@20 (paper)** | **Recall@20 (ID-GRec)** | **NDCG@20 (paper)** | **NDCG@20 (ID-GRec)** |
