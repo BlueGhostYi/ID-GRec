@@ -28,11 +28,15 @@ if args.seed_flag:
 print('Step 2: Select model...')
 print('\t 1. MFBPR    \t 2. GCMC    \t 3. GCCF      \t 4. NGCF      \t 5. LightGCN')
 print('\t 6. IMPGCN   \t 7. SGL     \t 8. CVGA      \t 9. SimGCL    \t 10.XSimGCL')
-print('\t 11.DirectAU')
+print('\t 11.DirectAU \t 12.NCL*    \t 13.HCCF*     \t 14.LightGCL  \t 15.VGCL*')
+print('\t 16.DCCF     \t 17.CGCL    \t 18.GraphAU*  \t 19.RecDCL*   \t 20.BIGCF')
+print('\t 21.SCCF     \t 22.EGCF    ')
+print('\t Models marked with * are still being tested, so stay tuned.')
 print('-' * 100)
 
 model_list = {"0": "unknown", "1": "MFBPR", "2": "GCMC", "3": "GCCF", "4": "NGCF", "5": "LightGCN",
-              "6": "IMPGCN", "7": "SGL", "8": "CVGA", "9": "SimGCL", "10": "XSimGCL", "11": 'DirectAU'}
+              "6": "IMPGCN", "7": "SGL", "8": "CVGA", "9": "SimGCL", "10": "XSimGCL", "11": 'DirectAU',
+              "14": "LightGCL", "16": "DCCF", "17": "CGCL", "20": "BIGCF", "21": "SCCF", "22": 'EGCF'}
 
 if args.model == "unknown":
     while True:
