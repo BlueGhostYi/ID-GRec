@@ -23,13 +23,13 @@ def general_test(dataset, model, device, config, epoch, best_results):
 
         print("Current epoch:", epoch + 1, " Test recall:", result['recall'], "Test NDCG:", result['ndcg'])
         print("Best epoch:   ", best_results['epoch'], " Best recall:", best_results['recall'], "Best NDCG:", best_results['ndcg'])
-
     else:
         result = sparsity_test(dataset, model, device, config)
         print("\t level_1: recall:", result[0]['recall'], ',ndcg:', result[0]['ndcg'])
         print("\t level_2: recall:", result[1]['recall'], ',ndcg:', result[1]['ndcg'])
         print("\t level_3: recall:", result[2]['recall'], ',ndcg:', result[2]['ndcg'])
         print("\t level_4: recall:", result[3]['recall'], ',ndcg:', result[3]['ndcg'])
+        return result[0], best_results
 
     return result, best_results
 
