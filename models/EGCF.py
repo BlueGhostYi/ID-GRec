@@ -1,6 +1,7 @@
 """
 PyTorch Implementation of EGCF
 Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems Zhang et al. TOIS'24
+For more information, please refer to: https://github.com/BlueGhostYi/EGCF
 """
 
 import torch
