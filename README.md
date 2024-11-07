@@ -1,5 +1,6 @@
 # ID-GRec
 **ID-based Graph Recommendation Framework (PyTorch)**
+<p float="left"><img src="https://img.shields.io/badge/Python-v3.8.18-blue"> <img src="https://img.shields.io/badge/PyTorch-v2.1.0-green"> <br>
 
 ID-GRec is a **graph recommendation framework** based on Python and Pytorch, which contains the current mainstream and latest graph recommendation methods, the most classic datasets, evaluation metrics and testing processes. One of the advantages of ID-GRec is that it is easy to get started, with a simple configuration of the model parameters, and the training can be executed in a simple one-step commands without any other operations. 
 
