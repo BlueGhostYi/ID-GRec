@@ -8,8 +8,6 @@ def parse_args():
 
     parser.add_argument("--seed", type=int, default=2024, help="random seed for init")
 
-    parser.add_argument("--data_path", nargs="?", default="./Data/", help="Input data path.")
-
     parser.add_argument("--cuda", type=bool, default=True, help="use gpu or not")
 
     parser.add_argument("--gpu_id", type=int, default=0, help="gpu id")
