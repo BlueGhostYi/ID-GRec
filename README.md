@@ -69,7 +69,7 @@ The folder named “configure” contains the hyperparameters, datasets, and oth
 9. `learn_rate = 0.001`: Sets the learning rate, which controls the step size during optimization, to 0.001.
 10. `reg_lambda = 0.0001`: Specifies the regularization parameter (often for weight decay), which helps prevent overfitting, set to 0.0001.
 11. `GCN_layer = 3`: Defines the number of graph convolutional network (GCN) layers in the model, set to 3.
-12. `sparsity_test = 0`: Indicates whether a sparsity test is performed. Setting this to 0 generally means the sparsity test is disabled.
+12. `sparsity_test = 0`: Indicates whether a sparsity test is performed. Setting this to 0 generally means the sparsity test is disabled. If you want to perform a sparsity test, please set it to 1.
 
 ## Basic Comparisons
 Taking the Yelp2018 dataset provided in the LightGCN paper as an example, the following table presents the reproduced results from ID-GRec with the results reported in the original paper (all publications that used the Yelp2018 dataset):
