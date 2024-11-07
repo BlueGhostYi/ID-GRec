@@ -30,30 +30,30 @@ The code for some of the models is still being refined. Stay tuned.
 
 | **Model Name** | **Paper**                                                                                              | **Publication** | **Type** |
 |----------------|--------------------------------------------------------------------------------------------------------|-----------------|----------|
-| BPRMF          | BPR: Bayesian personalized ranking from implicit feedback                                              | UAI'09          | base     |
-| GC-MC          | Graph convolutional matrix completion                                                                  | KDD'17          | GNN      |
-| LR-GCCF        | Revisiting graph based collaborative filtering: A linear residual graph convolutional network approach | AAAI'20         | GNN      |
-| NGCF           | Neural graph collaborative filtering                                                                   | SIGIR'19        | GNN      |
-| LightGCN       | LightGCN: Simplifying and powering graph convolution network for recommendation                        | SIGIR'20        | GNN      |
-| IMP-GCN        | Interest-aware message-passing GCN for recommendation                                                  | WWW'21          | GNN      |
-| SGL            | Self-supervised graph learning for recommendation                                                      | SIGIR'21        | GNN+SSL  |
-| CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder            | TOIS'22         | GNN+SSL  |
-| SimGCL         | Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation                | SIGIR'22        | GNN+SSL  |
-| DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering                             | KDD'22          | (GNN)+SSL|
-| NCL            | Improving graph collaborative filtering with neighborhood-enriched contrastive learning                | WWW'22          | GNN+SSL  |
-| HCCF           | Hypergraph Contrastive Collaborative Filtering                                                         | SIGIR'22        | GNN+SSL  |
-| XSimGCL        | XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation                        | TKDE'23         | GNN+SSL  |
-| LightGCL       | LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation                           | ICLR'23         | GNN+SSL  |
-| VGCL           | Generative-Contrastive Graph Learning for Recommendation                                               | SIGIR'23        | GNN+SSL  |
-| DCCF           | Disentangled Contrastive Collaborative Filtering                                                       | SIGIR'23        | GNN+SSL  |
-| CGCL           | Candidate–aware Graph Contrastive Learning for Recommendation                                          | SIGIR'23        | GNN+SSL  |
-| GraphAU        | Graph-based Alignment and Uniformity for Recommendation                                                | CIKM'23         | GNN+SSL  |
-| RecDCL         | RecDCL: Dual Contrastive Learning for Recommendation                                                   | WWW'24          | GNN+SSL  |
-| BIGCF          | Exploring the Individuality and Collectivity of Intents behind Interactions for Graph Collaborative Filtering  | SIGIR'24        | GNN+SSL  |
-| SCCF           | Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering                         | KDD'24          | GNN+SSL  |
-| LightGCN++     | Revisiting LightGCN: Unexpected Inflexibility, Inconsistency, and A Remedy Towards Improved Recommendation     | RecSys'24         | GNN  |
-| LightGODE      | Do We Really Need Graph Convolution During Training? Light Post-Training Graph-ODE for Efficient Recommendation     | CIKM'24         | GNN  |
-| EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[PDF](https://dl.acm.org/doi/10.1145/3701230)]           | TOIS'24         | GNN+SSL  |
+| BPRMF          | BPR: Bayesian Personalized Ranking from Implicit Feedback [[Paper](https://arxiv.org/abs/1205.2618)]                                              | UAI'09          | base     |
+| GC-MC          | Graph Convolutional Matrix Completion [[Paper](https://arxiv.org/abs/1706.02263)]                                                                 | KDD'17          | GNN      |
+| LR-GCCF        | Revisiting Graph based Collaborative Filtering: A Linear Residual Graph Convolutional Network Approach [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5330)]| AAAI'20         | GNN      |
+| NGCF           | Neural graph collaborative filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3331184.3331267)]                                                                   | SIGIR'19        | GNN      |
+| LightGCN       | LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401063)]                        | SIGIR'20        | GNN      |
+| IMP-GCN        | Interest-aware Message-passing GCN for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3449986)]                                                  | WWW'21          | GNN      |
+| SGL            | Self-supervised Graph Learning for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462862)]                                                      | SIGIR'21        | GNN+SSL  |
+| CVGA           | Revisiting Graph-based Recommender Systems from the Perspective of Variational Auto-Encoder [[Paper](https://dl.acm.org/doi/full/10.1145/3573385)]           | TOIS'22         | GNN+SSL  |
+| SimGCL         | Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531937)]               | SIGIR'22        | GNN+SSL  |
+| DirectAU       | Towards Representation Alignment and Uniformity in Collaborative Filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539253)]                             | KDD'22          | (GNN)+SSL|
+| NCL            | Improving graph collaborative filtering with neighborhood-enriched contrastive learning [[Paper](https://dl.acm.org/doi/abs/10.1145/3485447.3512104)]               | WWW'22          | GNN+SSL  |
+| HCCF           | Hypergraph Contrastive Collaborative Filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3477495.3532058)]                                                        | SIGIR'22        | GNN+SSL  |
+| XSimGCL        | XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation [[Paper](https://ieeexplore.ieee.org/abstract/document/10158930/)]                       | TKDE'23         | GNN+SSL  |
+| LightGCL       | LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation [[Paper](https://openreview.net/forum?id=FKXVK9dyMM)]                           | ICLR'23         | GNN+SSL  |
+| VGCL           | Generative-Contrastive Graph Learning for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591691)]                                              | SIGIR'23        | GNN+SSL  |
+| DCCF           | Disentangled Contrastive Collaborative Filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591665)]                                                      | SIGIR'23        | GNN+SSL  |
+| CGCL           | Candidate–aware Graph Contrastive Learning for Recommendation [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591647)]                                          | SIGIR'23        | GNN+SSL  |
+| GraphAU        | Graph-based Alignment and Uniformity for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3583780.3615185)]                                                | CIKM'23         | GNN+SSL  |
+| RecDCL         | RecDCL: Dual Contrastive Learning for Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3589334.3645533)]                                                  | WWW'24          | GNN+SSL  |
+| BIGCF          | Exploring the Individuality and Collectivity of Intents behind Interactions for Graph Collaborative Filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3626772.3657738)]  | SIGIR'24        | GNN+SSL  |
+| SCCF           | Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering [[Paper](https://dl.acm.org/doi/abs/10.1145/3637528.3671840)]                                 | KDD'24          | GNN+SSL  |
+| LightGCN++     | Revisiting LightGCN: Unexpected Inflexibility, Inconsistency, and A Remedy Towards Improved Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3640457.3688176)]     | RecSys'24       | GNN      |
+| LightGODE      | Do We Really Need Graph Convolution During Training? Light Post-Training Graph-ODE for Efficient Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3627673.3679773)]| CIKM'24         | GNN      |
+| EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[Paper](https://dl.acm.org/doi/10.1145/3701230)]                                | TOIS'24         | GNN+SSL  |
 
 ## Configuration File Description
 The folder named “configure” contains the hyperparameters, datasets, and other miscellaneous settings for all implemented methods. Except for model-specific hyperparameters, the settings listed at the top are common to all models. Using LightGCN.txt as an example, the following provides an introduction to the common settings:
