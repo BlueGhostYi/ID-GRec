@@ -53,7 +53,7 @@ The code for some of the models is still being refined. Stay tuned.
 | SCCF           | Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering                         | KDD'24          | GNN+SSL  |
 | LightGCN++     | Revisiting LightGCN: Unexpected Inflexibility, Inconsistency, and A Remedy Towards Improved Recommendation     | RecSys'24         | GNN  |
 | LightGODE      | Do We Really Need Graph Convolution During Training? Light Post-Training Graph-ODE for Efficient Recommendation     | CIKM'24         | GNN  |
-| EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems            | TOIS'24         | GNN+SSL  |
+| EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[PDF](https://dl.acm.org/doi/10.1145/3701230)]           | TOIS'24         | GNN+SSL  |
 
 ## Configuration File Description
 The folder named “configure” contains the hyperparameters, datasets, and other miscellaneous settings for all implemented methods. Except for model-specific hyperparameters, the settings listed at the top are common to all models. Using LightGCN.txt as an example, the following provides an introduction to the common settings:
