@@ -1,0 +1,16 @@
+dataset_path = ./dataset/
+dataset = yelp2018
+top_K = [10, 20]
+training_epochs = 1000
+interval = 1
+early_stopping = 10
+embedding_size = 64
+batch_size = 2048
+test_batch_size = 2048
+learn_rate = 0.001
+reg_lambda = 0.0001
+GCN_layer = 3
+gamma = 0.2
+alpha = 0.6
+beta = -0.1
+sparsity_test = 0
