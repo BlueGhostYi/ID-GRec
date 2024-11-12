@@ -80,7 +80,7 @@ class MAWU(nn.Module):
         cos_similarity = 2 - 2 * cos_similarity
         return cos_similarity.mul(-t).exp().mean().log()
 
-    # Negative samples are not used in DirectAU
+    # Negative samples are not used in MAWU
     def forward(self, user, positive, negative):
         if self.config['encoder'] == 'LightGCN':
             all_user_embeddings, all_item_embeddings = self.aggregate()
