@@ -97,3 +97,14 @@ ID-GRec is based on numerous outstanding existing works. We have mainly drawn on
 
 All the implemented methods in ID-GRec have been reproduced and integrated based on the source code provided by the original authors. Due to limitations in time and personal capabilities, there may be errors in the implementation of some models. We sincerely apologize if this causes any inconvenience to your research. If you have any questions regarding ID-GRec, please contact zhangyi.ahu@gmail.com.
 
+## Citation
+If you find this work is helpful to your research, please consider citing our paper:
+```
+@article{zhang2024simplify,
+  title={Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems},
+  author={Zhang, Yi and Zhang, Yiwen and Sang, Lei and Sheng, Victor S},
+  journal={ACM Transactions on Information Systems},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+```
