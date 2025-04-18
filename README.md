@@ -57,7 +57,7 @@ The code for some of the models is still being refined. Stay tuned.
 | LightGODE      | Do We Really Need Graph Convolution During Training? Light Post-Training Graph-ODE for Efficient Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3627673.3679773)]| CIKM'24         | GNN      |
 | EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[Paper](https://dl.acm.org/doi/10.1145/3701230)]                                | TOIS'24         | GNN+SSL  |
 | MixRec         | MixRec: Individual and Collective Mixing Empowers Data Augmentation for Recommender Systems [[Paper](https://arxiv.org/abs/2501.13579)]                                      | WWW'25          | GNN+SSL  |
-| LightCCF       | Unveiling Contrastive Learning’s Capability of Neighborhood Aggregation for Collaborative Filtering                                    | SIGIR'25          | (GNN)+SSL  |
+| LightCCF       | Unveiling Contrastive Learning’s Capability of Neighborhood Aggregation for Collaborative Filtering [[Paper](https://arxiv.org/abs/2504.10113)]                              | SIGIR'25          | (GNN)+SSL  |
 
 ## Configuration File Description
 The folder named “configure” contains the hyperparameters, datasets, and other miscellaneous settings for all implemented methods. Except for model-specific hyperparameters, the settings listed at the top are common to all models. Using LightGCN.txt as an example, the following provides an introduction to the common settings:
