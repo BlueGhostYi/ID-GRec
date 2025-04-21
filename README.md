@@ -82,6 +82,7 @@ Taking the Yelp2018 dataset provided in the LightGCN paper as an example, the fo
 | CVGA           |     0.0694    |   0.0691    |    0.0571     |    0.0570   |
 | SimGCL         |     0.0721    |   0.0722    |    0.0601     |    0.0599   |
 | XSimGCL        |     0.0723    |   0.0724    |    0.0604     |    0.0599   |
+| EGCF           |     0.0748    |   0.0749    |    0.0617     |    0.0619   |
 
 ## Acknowledgement
 
