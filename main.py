@@ -26,20 +26,18 @@ if args.seed_flag:
     tools.set_seed(args.seed)
 
 print('Step 2: Select model...')
-print('\t 1. MFBPR    \t 2. GCMC    \t 3. GCCF      \t 4. NGCF      \t 5. LightGCN')
-print('\t 6. IMPGCN   \t 7. SGL     \t 8. CVGA      \t 9. SimGCL    \t 10.XSimGCL')
-print('\t 11.DirectAU \t 12.NCL     \t 13.HCCF      \t 14.LightGCL  \t 15.VGCL*')
-print('\t 16.DCCF     \t 17.CGCL    \t 18.GraphAU*  \t 19.MAWU      \t 20.RecDCL')
-print('\t 21.BIGCF    \t 22.SCCF    \t 23.EGCF      \t 24.LightGODE \t 25.LightGCN_pp')
-print('\t 26.MixRec')
-print('\t Models marked with * are still being tested, so stay tuned.')
+print('\t 1. MFBPR    \t 2. GCMC     \t 3. GCCF       \t 4. NGCF      \t 5. LightGCN')
+print('\t 6. IMPGCN   \t 7. SGL      \t 8. CVGA       \t 9. SimGCL    \t 10.XSimGCL')
+print('\t 11.DirectAU \t 12.NCL      \t 13.HCCF       \t 14.LightGCL  \t 15.DCCF')
+print('\t 16.CGCL     \t 17.MAWU     \t 18.RecDCL     \t 19.BIGCF     \t 20.SCCF')
+print('\t 21.EGCF     \t 22.LightGODE\t 23.LightGCN_pp\t 24.MixRec    \t 25.LightCCF')
 print('-' * 100)
 
 model_list = {"0": "unknown", "1": "MFBPR", "2": "GCMC", "3": "GCCF", "4": "NGCF", "5": "LightGCN",
               "6": "IMPGCN", "7": "SGL", "8": "CVGA", "9": "SimGCL", "10": "XSimGCL", "11": 'DirectAU',
-              "12": "NCL", "13": "HCCF", "14": "LightGCL", "16": "DCCF", "17": "CGCL", "19": "MAWU",
-              "20": "RecDCL", "21": "BIGCF", "22": "SCCF", "23": 'EGCF', "24": "LightGODE",
-              "25": "LightGCN_pp", "26": "MixRec",
+              "12": "NCL", "13": "HCCF", "14": "LightGCL", "15": "DCCF", "16": "CGCL", "17": "MAWU",
+              "18": "RecDCL", "19": "BIGCF", "20": "SCCF", "21": 'EGCF', "22": "LightGODE",
+              "23": "LightGCN_pp", "24": "MixRec", "25": "LightCCF"
               }
 
 if args.model == "unknown":
