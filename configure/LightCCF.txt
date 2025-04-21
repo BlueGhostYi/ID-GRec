@@ -1,0 +1,16 @@
+dataset_path = ./dataset/
+dataset = amazon-book
+top_K = [10, 20]
+training_epochs = 50
+early_stopping = 20
+interval = 1
+embedding_size = 64
+batch_size = 4096
+test_batch_size = 200
+learn_rate = 0.001
+reg_lambda = 0.0001
+GCN_layer = 3
+ssl_lambda = 5.0
+temperature = 0.22
+encoder = LightGCN
+sparsity_test = 0
