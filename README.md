@@ -27,7 +27,6 @@ If you want to run LightGCN:
 2. Run main.py `python main.py` and select the identifier of LightGCN or specify through the command line:`python main.py --model=LightGCN`
 
 ## Implemented Model List
-The code for some of the models is still being refined. Stay tuned.
 
 | **Model Name** | **Paper**                                                                                              | **Publication** | **Type** |
 |----------------|--------------------------------------------------------------------------------------------------------|-----------------|----------|
