@@ -53,7 +53,7 @@ If you want to run LightGCN:
 | LightGCN++     | Revisiting LightGCN: Unexpected Inflexibility, Inconsistency, and A Remedy Towards Improved Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3640457.3688176)]     | RecSys'24       | GNN      |
 | LightGODE      | Do We Really Need Graph Convolution During Training? Light Post-Training Graph-ODE for Efficient Recommendation [[Paper](https://dl.acm.org/doi/abs/10.1145/3627673.3679773)]| CIKM'24         | GNN      |
 | EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[Paper](https://dl.acm.org/doi/10.1145/3701230)]                                | TOIS'24         | GNN+SSL  |
-| MixRec         | MixRec: Individual and Collective Mixing Empowers Data Augmentation for Recommender Systems [[Paper](https://arxiv.org/abs/2501.13579)]                                      | WWW'25          | GNN+SSL  |
+| MixRec         | MixRec: Individual and Collective Mixing Empowers Data Augmentation for Recommender Systems [[Paper](https://arxiv.org/abs/2501.13579)]                                      | WWW'25          | (GNN)+SSL  |
 | LightCCF       | Unveiling Contrastive Learning’s Capability of Neighborhood Aggregation for Collaborative Filtering [[Paper](https://arxiv.org/abs/2504.10113)]                              | SIGIR'25          | (GNN)+SSL  |
 
 ## Configuration File Description
