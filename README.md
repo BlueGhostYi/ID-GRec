@@ -55,7 +55,6 @@ If you want to run LightGCN:
 | EGCF           | Simplify to the Limit! Embedding-less Graph Collaborative Filtering for Recommender Systems [[Paper](https://dl.acm.org/doi/10.1145/3701230)]                                | TOIS'24         | GNN+SSL  |
 | MixRec         | MixRec: Individual and Collective Mixing Empowers Data Augmentation for Recommender Systems [[Paper](https://arxiv.org/abs/2501.13579)]                                      | WWW'25          | (GNN)+SSL  |
 | LightCCF       | Unveiling Contrastive Learning’s Capability of Neighborhood Aggregation for Collaborative Filtering [[Paper](https://arxiv.org/abs/2504.10113)]                              | SIGIR'25          | (GNN)+SSL  |
-| CFAU       | CAFU: Constrained Alignment and Filtered Uniformity for Denoising Recommendation [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38517)]                              | AAAI'26          | (GNN)+SSL  |
 | LightCSCF       | Revisiting Contrastive Learning in Collaborative Filtering via Parallel Graph Filters [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38521)]                              | AAAI'26          | (GNN)+SSL  |
 
 ## Configuration File Description
