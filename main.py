@@ -31,13 +31,14 @@ print('\t 6. IMPGCN   \t 7. SGL      \t 8. CVGA       \t 9. SimGCL    \t 10.XSim
 print('\t 11.DirectAU \t 12.NCL      \t 13.HCCF       \t 14.LightGCL  \t 15.DCCF')
 print('\t 16.CGCL     \t 17.MAWU     \t 18.RecDCL     \t 19.BIGCF     \t 20.SCCF')
 print('\t 21.EGCF     \t 22.LightGODE\t 23.LightGCN_pp\t 24.MixRec    \t 25.LightCCF')
+print('\t 26.CAFU     \t 27.LightCSCF')
 print('-' * 100)
 
 model_list = {"0": "unknown", "1": "MFBPR", "2": "GCMC", "3": "GCCF", "4": "NGCF", "5": "LightGCN",
               "6": "IMPGCN", "7": "SGL", "8": "CVGA", "9": "SimGCL", "10": "XSimGCL", "11": 'DirectAU',
               "12": "NCL", "13": "HCCF", "14": "LightGCL", "15": "DCCF", "16": "CGCL", "17": "MAWU",
               "18": "RecDCL", "19": "BIGCF", "20": "SCCF", "21": 'EGCF', "22": "LightGODE",
-              "23": "LightGCN_pp", "24": "MixRec", "25": "LightCCF"
+              "23": "LightGCN_pp", "24": "MixRec", "25": "LightCCF", "26": "CAFU", "27": "LightCSCF"
               }
 
 if args.model == "unknown":
